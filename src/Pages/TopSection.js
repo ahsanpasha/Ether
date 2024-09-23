@@ -284,15 +284,7 @@ const TopSection = () => {
                 anchor="left"
                 open={drawerOpen}
                 onClose={handleDrawerToggle}
-                sx={{
-                    '& .MuiPaper-root': {
-                        backgroundColor: '#000000 !important',
-                        color: '#FFFFFF !important',
-                        backgroundImage: 'url(/public/Images/Circle.png) !important',
-                        backgroundRepeat: 'no-repeat !important',
-                        backgroundPosition: '0 0 !important',
-                    }
-                }}
+                classes={{ paper: 'custom-drawer' }} // Add your custom class here
             >
                 <Box sx={{ padding: 2, textAlign: 'center' }} >
                     <img src="/Images/Ether.svg" alt="Drawer Logo" style={{ width: '50%', marginBottom: '16px' }} />
