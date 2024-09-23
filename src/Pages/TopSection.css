@@ -202,14 +202,6 @@ color: #FFFFFF;
     min-height: 0px !important;
 }
 
-.css-j400xw-MuiPaper-root-MuiDrawer-paper {
-    background-color: #000000 !important;
-    color: #FFFFFF !important;
-    background-image: url('/public/Images/Circle.png') !important;
-    background-repeat: no-repeat !important;
-    background-position: 0 0 !important;
-}
-
 
 
 @media (max-width: 899px) {
