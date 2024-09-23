@@ -154,9 +154,8 @@ color: #FFFFFF !important;
    
 }
 .three-icons-sidebar{
-color: #FFFFFF !important;
+color: #FFFFFF;
 }
-
 .toolbarstyle {
     padding-top: 45px !important;
     padding-left: 100px !important;
@@ -218,9 +217,7 @@ color: #FFFFFF !important;
         display: none;
     }
 
-    .css-20bmp1-MuiSvgIcon-root {
-        color: #FFFFFF !important;
-    }
+  
 }
 
 
