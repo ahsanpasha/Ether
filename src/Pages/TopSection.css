@@ -1,0 +1,939 @@
+.text {
+    font-family: Darker Grotesque;
+    font-size: 82px;
+    font-weight: 600;
+    line-height: 90.2px;
+    text-align: left;
+   
+    margin: 0px !important;
+    color: #FFFFFF;
+}
+
+.rowtext {
+    display: flex;
+    flex-direction: row;
+    gap: 31px;
+    justify-content: center;
+    align-items: flex-end;
+
+    padding-left: 102px;
+    padding-right: 102px;
+    padding-top: 79px;
+}
+
+.coltext {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    display: flex;
+    flex: 0.9;
+}
+.textdiv{
+    display: flex;
+    flex:2.1;
+}
+.small-paragraphy {
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    color: #FFFFFF;
+    margin: 0px !important;
+}
+
+.emoji {
+    font-family: Darker Grotesque;
+    font-size: 41px;
+    font-weight: 600;
+    line-height: 45.1px;
+    text-align: left;
+    margin: 0px !important;
+}
+
+.mainblack {
+    background-color: #000000;
+    background-image: url('/public/Images/Circle.png');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: none;
+}
+
+.iconcenter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.css-mq8cj8-MuiButtonBase-root-MuiButton-root {
+    font-family: Work Sans !important;
+font-size: 17px !important;
+font-weight: 400 !important;
+line-height: 27.3px !important;
+text-align: center !important;
+color: #FFFFFF !important;
+
+}
+.imagesdiv {
+    margin-top: 102px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+    margin-bottom: 124px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    white-space: nowrap;
+}
+
+
+@media screen and (min-device-width: 1240px) and (max-device-width: 2560px) { 
+    .imagesdiv {
+        justify-content: center;
+    }
+}
+.second2images {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    align-items: flex-end;
+    margin-left: -125px;
+}
+
+.third2images {
+    display: flex;
+    flex-direction: column;
+    gap: 9.93px;
+    align-items: flex-end;
+}
+
+.poweringtext {
+    font-family: Darker Grotesque;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0.800000011920929px;
+    text-align: center;
+    color: #6843EC;
+    margin: 0px !important;
+}
+
+.logoandtext {
+
+    display: flex;
+    gap: 31.59px;
+    flex-direction: column;
+    padding-left: 138px;
+    padding-right: 138px;
+}
+
+.alllogos {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.css-hhdjsd-MuiContainer-root {
+    padding: 0px !important;
+}
+
+.css-1jmxzwo-MuiToolbar-root {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+}
+
+.toolbarstyle {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.css-1jmxzwo-MuiToolbar-root {
+    padding-top: 45px;
+    padding-left: 100px;
+    padding-right: 99px;
+}
+
+.btndivs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+}
+
+.btndesign {
+    font-family: Work Sans;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27.3px;
+    text-align: center;
+    background-color: none;
+    color: red;
+
+
+}
+
+.css-1jmxzwo-MuiToolbar-root {
+    min-height: 0px;
+}
+
+.divvv {
+    margin-top: 47px;
+    margin-left: 98px !important;
+    margin-right: 98px !important;
+}
+
+
+
+.css-1jmxzwo-MuiToolbar-root {
+    min-height: 0px !important;
+}
+
+.css-j400xw-MuiPaper-root-MuiDrawer-paper {
+    background-color: #000000 !important;
+    color: #FFFFFF !important;
+    background-image: url('/public/Images/Circle.png') !important;
+    background-repeat: no-repeat !important;
+    background-position: 0 0 !important;
+}
+
+
+
+@media (max-width: 899px) {
+    .btndivs {
+        display: none;
+    }
+
+    .css-20bmp1-MuiSvgIcon-root {
+        color: #FFFFFF !important;
+    }
+}
+
+
+
+
+@media (max-width: 650px) {
+    .logoandtext {
+        margin-top: 0px !important;
+        display: flex;
+        gap: 31.59px;
+        flex-direction: column;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    .imagesdiv {
+        margin-top: 85px;
+        margin-bottom: 110px;
+    }
+}
+
+@media (max-width: 450px) {
+    .logoandtext {
+        margin-top: 124px;
+        display: flex;
+        gap: 31.59px;
+        flex-direction: column;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .imagesdiv {
+        margin-top: 75px;
+        margin-bottom: 75px;
+    }
+}
+
+@media (max-width: 350px) {
+    .logoandtext {
+        margin-top: 124px;
+        display: flex;
+        gap: 31.59px;
+        flex-direction: column;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .imagesdiv {
+        margin-top: 65px;
+
+    }
+}
+
+
+
+
+
+
+
+
+@media (max-width: 1170px) {
+    .text {
+        font-family: Darker Grotesque;
+        font-size: 75px;
+        font-weight: 500;
+        line-height: 80.2px;
+        text-align: left;
+        margin: 0px !important;
+        color: #FFFFFF;
+    }
+
+    .rowtext {
+        display: flex;
+        flex-direction: row;
+        gap: 31px;
+        justify-content: center;
+        align-items: flex-end;
+
+        padding-left: 80px;
+        padding-right: 80px;
+        padding-top: 69px;
+    }
+
+    .css-1jmxzwo-MuiToolbar-root {
+        padding-top: 45px;
+        padding-left: 80px !important;
+        padding-right: 80px !important;
+    }
+
+    .emoji {
+        font-family: Darker Grotesque;
+        font-size: 35px;
+        font-weight: 600;
+        line-height: 45.1px;
+        text-align: left;
+        margin: 0px !important;
+    }
+}
+
+@media (max-width: 1050px) {
+    .text {
+        font-family: Darker Grotesque;
+        font-size: 70px;
+        font-weight: 500;
+        line-height: 80.2px;
+        text-align: left;
+        margin: 0px !important;
+        color: #FFFFFF;
+    }
+
+    .rowtext {
+        display: flex;
+        flex-direction: row;
+        gap: 31px;
+        justify-content: center;
+        align-items: flex-end;
+
+        padding-left: 70px;
+        padding-right: 70px;
+        padding-top: 59px;
+    }
+
+    .css-1jmxzwo-MuiToolbar-root {
+        padding-top: 45px;
+        padding-left: 70px !important;
+        padding-right: 70px !important;
+    }
+
+    .emoji {
+        font-family: Darker Grotesque;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 45.1px;
+        text-align: left;
+        margin: 0px !important;
+    }
+}
+
+@media (max-width: 1000px) {
+    .text {
+        font-family: Darker Grotesque;
+        font-size: 60px;
+        font-weight: 500;
+        line-height: 70.2px;
+        text-align: left;
+        margin: 0px !important;
+        color: #FFFFFF;
+    }
+
+    .rowtext {
+        display: flex;
+        flex-direction: row;
+        gap: 31px;
+        justify-content: center;
+        align-items: flex-end;
+
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-top: 49px;
+    }
+
+    .css-1jmxzwo-MuiToolbar-root {
+        padding-top: 45px;
+        padding-left: 60px !important;
+        padding-right: 60px !important;
+    }
+
+    .emoji {
+        font-family: Darker Grotesque;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 45.1px;
+        text-align: left;
+        margin: 0px !important;
+    }
+}
+
+@media (max-width: 900px) {
+    .text {
+        font-family: Darker Grotesque;
+        font-size: 55px;
+        font-weight: 500;
+        line-height: 65.2px;
+        text-align: left;
+        margin: 0px !important;
+        color: #FFFFFF;
+    }
+
+    .rowtext {
+        display: flex;
+        flex-direction: row;
+        gap: 31px;
+        justify-content: center;
+        align-items: flex-end;
+
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 39px;
+    }
+
+    .css-1jmxzwo-MuiToolbar-root {
+        padding-top: 45px;
+        padding-left: 50px !important;
+        padding-right: 50px !important;
+    }
+
+    .emoji {
+        font-family: Darker Grotesque;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 45.1px;
+        text-align: left;
+        margin: 0px !important;
+    }
+}
+
+@media (max-width: 850px) {
+    .text {
+        font-family: Darker Grotesque;
+        font-size: 55px;
+        font-weight: 500;
+        line-height: 60.2px;
+        text-align: left;
+        margin: 0px !important;
+        color: #FFFFFF;
+    }
+
+    .rowtext {
+        display: flex;
+        flex-direction: column;
+        gap: 31px;
+
+        align-items: flex-start;
+
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 39px;
+    }
+
+    .css-1jmxzwo-MuiToolbar-root {
+        padding-top: 45px;
+        padding-left: 50px !important;
+        padding-right: 50px !important;
+    }
+
+    .emoji {
+        font-family: Darker Grotesque;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 45.1px;
+        text-align: left;
+        margin: 0px !important;
+    }
+}
+
+@media (max-width: 650px) {
+    .text {
+        font-family: Darker Grotesque;
+        font-size: 45px;
+        font-weight: 550;
+        line-height: 50.2px;
+        text-align: left;
+        margin: 0px !important;
+        color: #FFFFFF;
+    }
+
+    .rowtext {
+        display: flex;
+        flex-direction: column;
+        gap: 31px;
+
+        align-items: flex-start;
+
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 29px;
+    }
+
+    .css-1jmxzwo-MuiToolbar-root {
+        padding-top: 45px;
+        padding-left: 40px !important;
+        padding-right: 40px !important;
+    }
+
+    .emoji {
+        font-family: Darker Grotesque;
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 45.1px;
+        text-align: left;
+        margin: 0px !important;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .text {
+        font-family: Darker Grotesque;
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 40.2px;
+        text-align: left;
+        margin: 0px !important;
+        color: #FFFFFF;
+    }
+
+    .rowtext {
+        display: flex;
+        flex-direction: column;
+        gap: 31px;
+
+        align-items: flex-start;
+
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-top: 24px;
+    }
+
+    .css-1jmxzwo-MuiToolbar-root {
+        padding-top: 45px;
+        padding-left: 35px !important;
+        padding-right: 35px !important;
+    }
+
+    .emoji {
+        font-family: Darker Grotesque;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 45.1px;
+        text-align: left;
+        margin: 0px !important;
+    }
+
+    .small-paragraphy {
+        font-family: Work Sans;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: left;
+        color: #FFFFFF;
+        margin: 0px !important;
+    }
+}
+
+.firstblackbox {
+    width: 441.28px;
+    box-shadow: 0px 58px 80px 0px #00000029;
+
+    border-radius: 14px;
+    gap: 47px;
+    padding: 42px 43.67px 41px 45.39px;
+    background-color: #19161C;
+}
+
+.secblackbox {
+    width: 441.28px;
+    box-shadow: 0px 58px 80px 0px #00000029;
+
+    border-radius: 14px;
+    gap: 47px;
+    padding: 49px 53.67px 48px 53.57px;
+    background-color: #19161C;
+}
+
+
+
+.automated {
+    font-family: Darker Grotesque;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 37.8px;
+    text-align: left;
+    margin: 0px !important;
+    color: #FFFFFF;
+}
+
+.create {
+    font-family: Darker Grotesque;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 37.8px;
+    letter-spacing: 1px;
+    text-align: left;
+
+    margin: 0px !important;
+    color: #FFFFFF;
+}
+
+
+.automatedsmall {
+    margin: 0px !important;
+    color: #FFFFFF;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.3px;
+    text-align: left;
+
+
+}
+
+.createsmall {
+    margin: 0px !important;
+    color: #FFFFFF;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.3px;
+    text-align: left;
+
+
+
+}
+
+.buttomininput {
+    padding: 9px 13.19px;
+    background-color: #0A0A0A;
+    width: 100%;
+
+
+    border-radius: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttomininputdesign {
+    background-color: #D2FF3A;
+    padding: 13px 18.3px;
+
+    border-radius: 800px;
+    border: none;
+    font-family: Work Sans;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+
+}
+
+
+.buttomininputdesignnone {
+    background-color: #D2FF3A;
+    padding: 13px 18.3px;
+
+    border-radius: 800px;
+    border: none;
+    font-family: Work Sans;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+
+    display: none;
+}
+
+.Email-input {
+
+    color: #848895;
+    border: none;
+    width: 100%;
+    font-family: Work Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    background-color: transparent;
+}
+
+.Email-input::placeholder {
+    font-family: Work Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+
+    width: 240px;
+    height: 20px;
+
+    color: #848895;
+
+}
+
+.Email-input:focus {
+    outline: none;
+
+}
+
+.firsttextofbox {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin-bottom: 47px;
+}
+
+.firsttextofsecbox {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 22px;
+}
+
+.buttondivthree {
+
+    display: flex;
+    flex-direction: row;
+    gap: 22px;
+    justify-content: center;
+
+
+
+}
+
+.btndesign {
+
+    width: 40%;
+    border-radius: 24px;
+    border: 1px solid #FFFFFF;
+    align-items: center;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 12px 43px;
+}
+
+.btndesign:hover {
+    background-color: #000000;
+}
+
+.firstboxwithbtns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+
+.boxesmain {
+    margin-top: 129px;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 960px) {
+    .boxesmain {
+        margin-top: 110px;
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+
+@media (max-width: 480px) {
+    .boxesmain {
+        margin-top: 75px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .firstblackbox {
+        width: 100%;
+        padding: 25px 25px 25px 25px;
+    }
+
+    .secblackbox {
+        width: 100%;
+        padding: 25px 25px 25px 25px;
+    }
+
+    .boxesmain {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .btndesign {
+        padding: 10px;
+    }
+
+    .btnimg {
+        width: 80%;
+    }
+
+    .buttondivthree {
+        width: 100%;
+    }
+
+    .btndesign {
+
+        width: 50%;
+    }
+
+    .buttondivthree {
+        gap: 10px;
+    }
+}
+
+
+
+@media (max-width: 425px) {
+    .text {
+
+        font-family: Darker Grotesque;
+        font-size: 35px;
+        font-weight: 500;
+        line-height: 40.2px;
+        text-align: left;
+        margin: 0px !important;
+        color: #FFFFFF;
+    }
+
+    .rowtext {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        align-items: flex-start;
+
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 19px;
+    }
+
+    .css-1jmxzwo-MuiToolbar-root {
+        padding-top: 45px;
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+    }
+
+    .coltext {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .emoji {
+        font-family: Darker Grotesque;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 45.1px;
+        text-align: left;
+        margin: 0px !important;
+    }
+
+    .small-paragraphy {
+        font-family: Work Sans;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: left;
+        color: #FFFFFF;
+        margin: 0px !important;
+    }
+}
+
+
+
+/* @media (max-width: 1250px) {
+
+    .scroll-wrapper {
+
+        overflow: hidden;
+    }
+
+    .imagesdiv {
+        box-sizing: border-box;
+
+        animation: scrollLeft 15s linear infinite;
+
+    }
+
+    @keyframes scrollLeft {
+        0% {
+            transform: translateX(100%);
+        }
+
+        100% {
+            transform: translateX(-100%);
+        }
+    }
+
+
+    .imagesdiv::-webkit-scrollbar {
+        display: none;
+    }
+
+    .scroll-wrapper {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+
+} */
+
+@media (max-width: 500px) {
+
+    .buttomininputdesign {
+        display: none;
+    }
+
+    .buttomininputdesignnone {
+        margin-top: 10px;
+        display: flex;
+    }
+
+    .buttomininput {
+        padding: 20px 13.19px;
+    }
+
+
+}

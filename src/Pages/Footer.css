@@ -1,0 +1,136 @@
+.footermain {
+    background-color: #141414;
+    padding-top: 125px;
+    padding-left: 105px;
+    padding-bottom: 83px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.managed{
+    margin: 0px !important;
+    font-family: Work Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 27.3px;
+text-align: left;
+color: #FFFFFF;
+}
+
+.socialmediaimages{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.footerleftside{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.etherfooterheading{
+    font-family: Darker Grotesque;
+font-size: 16px;
+font-weight: 700;
+line-height: 18.72px;
+text-align: left;
+color: #FFFFFF;
+margin: 0px !important;
+
+}
+.etherfooterunder{
+    font-family: Work Sans;
+font-size: 15px;
+font-weight: 400;
+line-height: 27.3px;
+text-align: left;
+color: #848895;
+margin: 0px !important;
+padding-top: 11.78px !important;
+}
+.etherfirstfooterunder{
+    font-family: Work Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 27.3px;
+    text-align: left;
+    color: #848895;
+    margin: 0px !important;
+    padding-top: 13px !important;
+}
+
+.footerrightside{
+    display: flex;
+    flex-direction: row;
+  
+}
+
+
+.connectedsecdiv{
+    padding-left: 12.32px !important;
+    padding-right: 73.68px !important;
+    padding-bottom: 78px !important;
+}
+
+.etherfirstdiv{
+    padding-left: 20.45px !important;
+    padding-right: 58px !important;
+    padding-bottom: 44px !important;
+}
+
+
+@media (max-width: 780px) {
+    .footermain {
+        background-color: #141414;
+        padding: 75px !important;
+       
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .connectedsecdiv{
+        padding-left: 0px !important;
+        padding-right: 73.68px !important;
+        padding-bottom: 0px !important;
+    }
+    
+    .etherfirstdiv{
+        padding-left: 0px !important;
+        padding-right: 58px !important;
+        padding-bottom: 0px !important;
+    }
+}
+
+
+@media (max-width: 400px) {
+    .footermain {
+        background-color: #141414;
+        padding-top: 60px !important;
+      
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .footerrightside{
+        display: flex;
+        flex-direction: column;
+      gap: 20px;
+    }
+    .connectedsecdiv{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        padding-bottom: 0px !important;
+    }
+    
+    .etherfirstdiv{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        padding-bottom: 0px !important;
+    }
+    
+
+}

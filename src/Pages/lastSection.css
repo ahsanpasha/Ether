@@ -1,0 +1,129 @@
+.journey {
+    margin: 0px !important;
+    font-family: Darker Grotesque;
+    font-size: 46px;
+    font-weight: 600;
+    line-height: 62.38px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.lastmain {
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-bottom: 152px;
+}
+
+.bottomimages {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    white-space: nowrap;
+    align-items: center;
+   
+}
+
+@media screen and (min-device-width: 1240px) and (max-device-width: 2560px) { 
+    .bottomimages {
+        justify-content: center;
+    }
+}
+
+.journeydiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center2images {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+@media (max-width: 500px) {
+    .lastmain {
+        padding-bottom: 100px;
+    }
+}
+
+
+
+
+@media (max-width: 700px) {
+    .journey {
+
+        font-family: Darker Grotesque;
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 32.38px;
+        letter-spacing: 1px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+}
+
+@media (max-width: 700px) {
+    .journey {
+
+        font-family: Darker Grotesque;
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 32.38px;
+        letter-spacing: 1px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+}
+
+
+
+/* @media (max-width: 1250px) {
+
+    .scroll-wrapperr {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .bottomimages {
+
+        
+        flex-direction: row;
+        gap: 20px;
+        overflow-x: auto;
+        scrollbar-width: none;
+        white-space: nowrap;
+        align-items: center;
+        justify-content: center;
+
+       
+        display: flex;
+        white-space: nowrap;
+        animation: scrolllLeft 15s linear infinite;
+        
+    }
+
+    @keyframes scrolllLeft {
+        0% {
+            transform: translateX(100%);
+        }
+
+        100% {
+            transform: translateX(-100%);
+        }
+    }
+
+
+    .bottomimages::-webkit-scrollbar {
+        display: none;
+    }
+
+    .scroll-wrapperr {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+
+} */

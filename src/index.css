@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "Darker Grotesque";
+    src: url('/public/Fonts/DarkerGrotesque.ttf') format("truetype");
+  }
+  
+  @font-face {
+    font-family: "Work Sans";
+    src: url('/public/Fonts/WorkSans-Regular.ttf') format("truetype");
+  }
+  

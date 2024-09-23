@@ -1,0 +1,117 @@
+.mainsecond {
+    background-color: #000000;
+    background-image: url('/public/Images/IMAGE.png');
+    background-repeat: no-repeat;
+
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.community {
+    font-family: Darker Grotesque;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 46.2px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #FFFFFF;
+    margin: 0px !important;
+    padding-top: 41px;
+    padding-left: 27.5px;
+}
+
+.maincommunity {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 107px 151.5px 88px 151.5px;
+    padding-bottom: 47.59px;
+}
+
+.accountsnumber {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    padding-right: 68.12px;
+}
+
+
+.plusnumber {
+    font-family: Darker Grotesque;
+    font-size: 126px;
+    font-weight: 600;
+    line-height: 132px;
+    text-align: left;
+    background: linear-gradient(261.81deg, #D2FF3A -8.01%, #6843EC 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    margin: 0px !important;
+}
+
+.plusinner {
+    margin: 0px !important;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.3px;
+    text-align: left;
+    color: #C4C4C4;
+}
+
+
+@media (max-width: 1010px) {
+.maincommunity{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+    margin: 100px 140px 80px 140px;
+}
+
+
+
+.community{
+    text-align: center; 
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-bottom: 15px;
+}
+.plusnumber {
+    text-align: center;
+}
+.plusinner{
+    text-align: center;
+}
+.accountsnumber {
+    padding-right: 0px;
+}
+    
+}
+
+@media (max-width: 550px) {
+    .plusnumber{
+        font-family: Darker Grotesque;
+    font-size: 95px;
+    font-weight: 500;
+    line-height: 100px;
+    }
+    .journeydiv{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .maincommunity{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items:center;
+        margin: 75px 130px 75px 130px;
+      
+    }
+    
+}
