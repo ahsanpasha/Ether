@@ -154,14 +154,17 @@ color: #FFFFFF !important;
 }
 
 .toolbarstyle {
-    padding-top: 45px;
-    padding-left: 100px;
-    padding-right: 99px;
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
+.css-1jmxzwo-MuiToolbar-root {
+    padding-top: 45px !important;
+    padding-left: 100px !important;
+    padding-right: 99px !important;
+}
 
 .btndivs {
     display: flex;
