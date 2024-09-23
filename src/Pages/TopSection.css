@@ -187,7 +187,7 @@ color: #FFFFFF !important;
 }
 
 .css-1jmxzwo-MuiToolbar-root {
-    min-height: 0px;
+    min-height: 0px !important;
 }
 
 .divvv {
@@ -304,7 +304,7 @@ color: #FFFFFF !important;
     }
 
     .css-1jmxzwo-MuiToolbar-root {
-        padding-top: 45px;
+        padding-top: 45px !important;
         padding-left: 80px !important;
         padding-right: 80px !important;
     }
@@ -343,7 +343,7 @@ color: #FFFFFF !important;
     }
 
     .css-1jmxzwo-MuiToolbar-root {
-        padding-top: 45px;
+        padding-top: 45px !important;
         padding-left: 70px !important;
         padding-right: 70px !important;
     }
@@ -382,7 +382,7 @@ color: #FFFFFF !important;
     }
 
     .css-1jmxzwo-MuiToolbar-root {
-        padding-top: 45px;
+        padding-top: 45px !important;
         padding-left: 60px !important;
         padding-right: 60px !important;
     }
@@ -421,7 +421,7 @@ color: #FFFFFF !important;
     }
 
     .css-1jmxzwo-MuiToolbar-root {
-        padding-top: 45px;
+        padding-top: 45px !important;
         padding-left: 50px !important;
         padding-right: 50px !important;
     }
@@ -460,7 +460,7 @@ color: #FFFFFF !important;
     }
 
     .css-1jmxzwo-MuiToolbar-root {
-        padding-top: 45px;
+        padding-top: 45px !important;
         padding-left: 50px !important;
         padding-right: 50px !important;
     }
@@ -499,7 +499,7 @@ color: #FFFFFF !important;
     }
 
     .css-1jmxzwo-MuiToolbar-root {
-        padding-top: 45px;
+        padding-top: 45px !important;
         padding-left: 40px !important;
         padding-right: 40px !important;
     }
@@ -539,7 +539,7 @@ color: #FFFFFF !important;
     }
 
     .css-1jmxzwo-MuiToolbar-root {
-        padding-top: 45px;
+        padding-top: 45px !important;
         padding-left: 35px !important;
         padding-right: 35px !important;
     }
@@ -851,7 +851,7 @@ color: #FFFFFF !important;
     }
 
     .css-1jmxzwo-MuiToolbar-root {
-        padding-top: 45px;
+        padding-top: 45px !important;
         padding-left: 30px !important;
         padding-right: 30px !important;
     }
