@@ -271,7 +271,7 @@ const TopSection = () => {
                         aria-haspopup="true"
                         onClick={handleDrawerToggle}
                         color="inherit"
-
+className='three-icons-sidebar'
                     >
                         <MenuIcon />
                     </IconButton>
