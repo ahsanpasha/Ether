@@ -154,10 +154,10 @@ color: #FFFFFF !important;
    
 }
 .three-icons-sidebar{
-color: #FFFFFF;
+color: #FFFFFF !important;
 }
 .drawer-style-new{
-    background-color: #000000;
+    background-color: #000000 !important;
 }
 .toolbarstyle {
     padding-top: 45px !important;
