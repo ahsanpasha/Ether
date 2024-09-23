@@ -271,7 +271,7 @@ const TopSection = () => {
                         aria-haspopup="true"
                         onClick={handleDrawerToggle}
                         color="inherit"
-className='three-icons-sidebar'
+                        className='three-icons-sidebar'
                     >
                         <MenuIcon />
                     </IconButton>
@@ -281,10 +281,10 @@ className='three-icons-sidebar'
             {renderMenu}
 
             <Drawer
-
                 anchor="left"
                 open={drawerOpen}
                 onClose={handleDrawerToggle}
+                className='drawer-style-new'
             >
                 <Box sx={{ padding: 2, textAlign: 'center' }}>
                     <img src="/Images/Ether.svg" alt="Drawer Logo" style={{ width: '50%', marginBottom: '16px' }} />

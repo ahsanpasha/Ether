@@ -156,6 +156,9 @@ color: #FFFFFF !important;
 .three-icons-sidebar{
 color: #FFFFFF;
 }
+.drawer-style-new{
+    background-color: #000000;
+}
 .toolbarstyle {
     padding-top: 45px !important;
     padding-left: 100px !important;
